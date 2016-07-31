@@ -1,0 +1,92 @@
+/*==General==============================*/
+
+article {
+	border: 1px solid lightblue;
+	width: 30%;
+	height: 70%;
+	display: inline-block;
+	margin: 10px;
+	text-align: justify;
+	font-family: "Roboto", sans-serif;
+}
+
+
+/*==Top Half=============================*/
+
+
+article header h1 {
+	border: 1px dashed lightgray;
+	text-align: center;
+	margin: 0px;
+	padding: 12px;
+}
+
+div.image {
+	/*border: 1px solid black;*/
+	display: block;
+	margin: auto;
+	width: 75%;
+	height: 30%;
+	padding: 10px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+.discription {
+	padding: 10px;
+}
+
+
+
+/*==Bottom Half==========================*/
+
+div.availability {
+	background-color: gray;
+	color: #ffc107;
+	padding: 6px;
+	margin: 15px 0px;
+	font-weight: bold;
+}
+
+section header {
+	margin: 10px 0px;
+	padding-top: 20px;
+}
+
+ul {
+	padding-left: 15px;
+	margin-top: 5px;
+}
+
+section.product {
+	margin: 10px;
+	font-weight: bold;
+	line-height: 8px;
+}
+
+.product li {
+	margin: 3px;
+	list-style-type: none;
+	padding: 3px;
+	line-height: 8px;
+}
+
+footer {
+	font-size: 11px;
+	/*padding: 24px 0;*/
+}
+
+/*.clearfix {
+	overflow: auto;
+}*/
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
